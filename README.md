@@ -5,28 +5,8 @@ The infrastructure includes a custom VPC, public and private subnets, routing, N
 
 ---
 
-## Architecture Overview
-
-```
-                          Internet
-                              |
-                        Internet Gateway
-                              |
-                 ┌────────────────────────┐
-                 │     Public Subnet      │
-                 │  - App Server (EC2)    │
-                 │  - NAT Gateway         │
-                 └────────────────────────┘
-                              |
-                        Outbound Access
-                              |
-                 ┌────────────────────────┐
-                 │    Private Subnets     │
-                 │  - DB Server 1 (EC2)   │
-                 │  - DB Server 2 (EC2)   │
-                 └────────────────────────┘
-```
-
+## Architecture Overview     
+* ![Apply](./img/5577.png)    
 ---
 
 # Project Structure
@@ -229,3 +209,18 @@ terraform apply --auto-approve
 ![VPC](./img/vpc.png)
 
 ---
+
+## What I Learned
+
+Through this project, I learned how to:
+
+* Design and deploy a complete 3-Tier Architecture on AWS using Terraform
+* Create and manage VPCs, subnets, route tables, Internet Gateway, and NAT Gateway
+* Launch EC2 instances in public and private subnets
+* Configure security groups to control inbound and outbound traffic
+* Automate infrastructure provisioning using Terraform commands and reusable variables
+* Understand how public and private networks communicate securely in AWS
+
+---
+
+

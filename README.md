@@ -190,42 +190,42 @@ terraform apply --auto-approve
 
 ## Internet Gateway
 
-![IGW](./images/internate_gateway.png)
+![IGW](./img/internate_gateway.png)
 
 ## NAT Gateway
 
-![NAT Gateway](./images/nat_gateways.png)
+![NAT Gateway](./img/nat_gateways.png)
 
 ## Route Tables
 
-![Route Tables](./images/route_tables.png)
+![Route Tables](./img/route_tables.png)
 
 ## Security Groups
 
-![Security Groups](./images/security_group.png)
+![Security Groups](./img/security_group.png)
 
 ## EC2 Instances
 
-![Instances](./images/servers.png)
+![Instances](./img/servers.png)
 
 ## Subnets
 
-![Subnets](./images/subnet.png)
-
-## Terraform Apply
-
-![Apply](./images/terraform_apply.png)
+![Subnets](./img/subnet.png)
 
 ## Terraform Init
 
-![Init](./images/terraform_init.png)
+![Init](./img/terraform_init.png)
 
 ## Terraform Plan
 
-![Plan](./images/terraform_plan.png)
+![Plan](./img/terraform_plan.png)
+
+## Terraform Apply
+
+![Apply](./img/terraform_apply.png)
 
 ## VPC
 
-![VPC](./images/vpc.png)
+![VPC](./img/vpc.png)
 
 ---
